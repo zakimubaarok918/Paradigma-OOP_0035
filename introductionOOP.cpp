@@ -16,10 +16,10 @@ public :
 }; //batas class
 
 int main(){
-    Mahasiwa mhs;
-    mhs.nim = 2022;
-    mhs.nama = "Abra";
-    mhs.nilai = 90.5;
+    Mahasiswa mhs1;
+    mhs1.nim = 12345;
+    mhs1.nama = "Zaki";
+    mhs1.nilai = 90.5;
 
-    mhs.printdata();
-}    
+    mhs1.printdata();
+}
