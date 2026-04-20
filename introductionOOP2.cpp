@@ -4,14 +4,14 @@ using namespace std;
 class Mahasiswa{
 
 public :
-    int nim;
+    int barang;
     string nama;
-    float nilai;
+    float tanggal_produksi;
 
     void printdata{
         cout << "NIM : " << nim << endl;
         cout << "Nama : " << nama << endl;
-        cout << "Nilai : " << nilai << endl;
+        cout << "Tanggal_produksi : " << Tanggal_produksi << endl;
     }
 }; //batas class
 
